@@ -1,1 +1,1 @@
-Depends on "reflect-metadata". Ensure this is included in your code before using this.
+Depends on aws-sdk v3. Provides middleware that can be added to client stacks to emit metrics for that client.
