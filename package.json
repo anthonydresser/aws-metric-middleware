@@ -1,0 +1,23 @@
+{
+  "name": "@anthonydresser/aws-metric-middleware",
+  "version": "0.0.1",
+  "description": "Provides middleware for @aws-sdk v3 that adds cloudwatch metric emitters for clients",
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "repository": "https://github.com/anthonydresser/aws-metric-middleware",
+  "author": "Anthony <me@anthonydresser.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.316.0"
+  }
+}
